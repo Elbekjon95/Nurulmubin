@@ -1,0 +1,753 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bolock-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.block-col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/**** header start ****/
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/d1ZupoLogtRiRdEocPqkc9Kgad6PdahsvbbXathF.jpg) no-repeat center center / cover;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+}
+
+.collapse .nav-link {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+}
+
+.collapse .nav-link:hover {
+    font-size: 21px;
+    color: darkblue;
+}
+
+.header_title {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: darkblue;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.header_text {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: darkblue;
+}
+
+/**** header end ****/
+/**** about start ****/
+
+.about {
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.about_top {
+    width: 100%;
+    display: flex;
+}
+
+.about_top-left {
+    width: 50%;
+    padding-right: 15%;
+}
+
+.about_top-right {
+    width: 50%;
+}
+
+.about-img {
+    width: 100%;
+}
+
+.about_title {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: darkblue;
+}
+
+.about_title2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.about_text {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.about_text2 {
+    font-style: oblique;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.about_text3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about_bottom {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.about_bottom-box {
+    width: 100%;
+    padding-right: 5%;
+}
+
+.bootstrap_icon {
+    display: inline-block;
+    padding: 1.1875rem 1.875rem 1.1875rem 1.875rem;
+    border: 0.125rem solid #14bf98;
+    border-radius: 0.25rem;
+    background-color: #14bf98;
+    color: #fff;
+    font: 700 2.75rem/0 "Montserrat", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+    margin-bottom: 20px;
+}
+
+.bootstrap_icon:hover {
+    background-color: transparent;
+    color: #14bf98;
+    text-decoration: none;
+}
+
+.about_b-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/**** about end ****/
+
+/**** services start ****/
+
+.services {
+    width: 100%;
+    height: 700px;
+    margin-bottom: 50px;
+}
+
+.services_title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.services_boxes {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.services_card {
+    width: 30%;
+    border: 0.5px solid #000;
+    margin-top: 70px;
+    border-radius: 15px;
+}
+
+.services_card-img {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.service_star {
+    color: #14bf98;
+}
+
+.service_price {
+    color: #14bf98;
+    font-weight: bolder;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.services_card-btn {
+    background: #14bf98;
+    margin-bottom: 20px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.services_card-btn:hover {
+    background: #fff;
+    color: #14bf98;
+}
+
+/**** services end ****/
+/**** foreach start ****/
+
+.foreach {
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+}
+
+.foreach_top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foreach_top-left {
+    width: 50%;
+}
+
+.foreach_top-title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.foreach_top-text {
+    font-size: 14px;
+}
+
+.foreach_top-img {
+    width: 100%;
+}
+
+.foreach_top-right {
+    width: 50%;
+    padding-left: 30px;
+
+}
+
+.foreach_bottom {
+    display: flex;
+    width: 100%;
+}
+
+.foreach_bot-right {
+    width: 50%;
+}
+
+.foreach_bot-img {
+    width: 100%;
+}
+
+.foreach_bot-left {
+    width: 50%;
+}
+
+.foreach_bot-tile {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 150px;
+}
+
+/**** foreach end ****/
+/* word start */
+
+
+.work {
+    background: #14bf98;
+    padding-top: 76px;
+    padding-bottom: 40px;
+}
+
+.work i {
+    color: #ffff;
+    font-size: 50px;
+}
+
+.work h5 {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 7px;
+}
+
+.work p {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+.work .work-pl .box img {
+    width: 100%;
+    height: 300px;
+}
+
+.work .work-pl .box {
+    position: relative;
+}
+
+.work .box a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(20, 20, 20, 0.83);
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.work .box:hover a {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.work .work-load {
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 45px;
+
+}
+
+.work .work-pl {
+    margin-top: 80px;
+}
+
+/* work end */
+/* video start */
+
+.video h3 {
+    color: #191919;
+    font-size: 43px;
+}
+
+.video p {
+    font-size: 22px;
+    color: #787878;
+
+
+}
+
+.video {
+    padding: 100px 0px;
+}
+
+.video video {
+    width: 100%;
+    margin-top: 49px;
+}
+
+/* VIDEO END */
+/**** Footer start ****/
+
+footer {
+    width: 100%;
+    height: 300px;
+    background: #14bf98;
+}
+
+.footer_block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer_block-left {
+    width: 50%;
+    position: relative;
+}
+
+.footer_logo {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    top: 120px;
+    left: 150px;
+}
+
+.footer_block-right {
+    width: 50%;
+}
+
+.footer_b-title {
+    font-size: 35px;
+    color: #fff;
+    margin-top: 50px;
+    font-weight: 900;
+}
+
+.footer_b-text {
+    font-size: 25px;
+    max-width: 60%;
+    color: #fff;
+    transition: 1s ease;
+}
+
+.phone_number {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.phone_number:hover {
+    color: darkblue;
+}
+
+/**** footer end *****/
+/**** media start ****/
+
+@media(max-width: 1200px) {
+    .about_bottom {
+        margin-top: 0;
+    }
+}
+
+@media(max-width: 1110px) {
+    .collapse .nav-link {
+        font-size: 16px;
+    }
+
+    .collapse .nav-link:hover {
+        font-size: 17px;
+    }
+
+    .header_title {
+        font-size: 30px;
+    }
+
+    .header_text {
+        font-size: 20px;
+    }
+
+    .about_title {
+        font-size: 10px;
+    }
+
+    .about_title2 {
+        font-size: 25px;
+    }
+
+    .about_text {
+        font-size: 12px;
+    }
+
+    .about_text2 {
+        font-size: 12px;
+    }
+
+    .about_text3 {
+        font-size: 12px;
+    }
+
+    .about_bottom {
+        margin-top: 50px;
+    }
+
+    .about {
+        width: 100%;
+        height: 600px;
+    }
+
+    .bootstrap_icon {
+        font: 700 0.75rem/0 "Montserrat", sans-serif;
+    }
+
+    .about_b-title {
+        font-size: 20px;
+    }
+
+    .about_b-text {
+        font-size: 12px;
+    }
+
+    .services_card-img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .services_card-title {
+        font-size: 20px;
+    }
+
+    .services_card-text {
+        font-size: 12px;
+    }
+
+    .services_card-text2 {
+        font-size: 12px;
+    }
+
+    .services {
+        margin-bottom: 10px;
+    }
+
+    .foreach_bot-left {
+        width: 50%;
+    }
+
+    .foreach_bot-right {
+        width: 50%;
+    }
+
+    .foreach_top-left {
+        width: 50%;
+    }
+
+    .foreach_top-right {
+        width: 50%;
+    }
+
+    .work .work-pl .box img {
+        height: 150px;
+    }
+
+    .work i {
+        font-size: 25px;
+    }
+
+    .work .work-load {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px) {
+    .services_title {
+        margin-top: 50px;
+    }
+
+    .foreach_top-title {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .foreach_bot-tile {
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+    .foreach_top-text {
+        font-size: 10px;
+    }
+
+    .foreach_bot-text {
+        font-size: 10px;
+    }
+
+    .foreach {
+        height: 500px;
+    }
+
+    .video h3 {
+        font-size: 25px;
+    }
+
+    .video p {
+        font-size: 12px;
+    }
+
+    .footer_logo {
+        left: 50px;
+    }
+
+    .footer_b-title {
+        font-size: 25px;
+        margin-top: 100px;
+    }
+
+    .footer_b-text {
+        font-size: 15px;
+    }
+
+    .phone_number {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        width: 100%;
+    }
+
+    .about_title2 {
+        font-size: 15px;
+    }
+
+    .about_text2 {
+        font-size: 8px;
+    }
+
+    .about_text {
+        font-size: 8px;
+    }
+
+    .services_card-img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .services_card-title {
+        font-size: 16px;
+    }
+
+    .services_card-text {
+        font-size: 8px;
+    }
+
+    .services_card-text2 {
+        font-size: 8px;
+    }
+
+    .services_card-text3 {
+        font-size: 8px;
+    }
+
+    .service_price {
+        font-size: 10px;
+    }
+
+    .services_card-btn {
+        padding: 2px 5px 2px 5px;
+        font-size: 10px;
+    }
+
+    .services {
+        margin-bottom: 0;
+        height: 500px;
+    }
+
+    .services_title {
+        font-size: 20px;
+    }
+
+    .services_card {
+        margin-top: 15px;
+    }
+
+    .foreach_bot-left {
+        width: 50%;
+    }
+
+    .foreach_bot-right {
+        width: 50%;
+    }
+
+    .foreach_top-left {
+        width: 50%;
+    }
+
+    .foreach_top-right {
+        width: 50%;
+    }
+
+    .foreach_top-title {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .foreach_bot-tile {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .foreach_bot-text {
+        font-size: 8px;
+    }
+
+    .foreach_top-text {
+        font-size: 8px;
+    }
+
+    .foreach {
+        height: 400px;
+    }
+
+    .work .work-pl .box img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 575px) {
+    header {
+        width: 100%;
+    }
+
+    .work .work-pl .box img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 468px) {
+    header {
+        width: 100%;
+    }
+
+    .header_title {
+        font-size: 20px;
+    }
+
+    .header_text {
+        font-size: 15px;
+    }
+
+    .work .work-pl .box img {
+        height: 100px;
+    }
+
+    .services {
+        margin-top: 100px;
+    }
+
+    .services_title {
+        margin-top: 20px;
+    }
+
+    .footer_logo {
+        left: 0px;
+    }
+
+    .footer_b-title {
+        font-size: 25px;
+        margin-top: 100px;
+    }
+
+    .footer_b-text {
+        font-size: 15px;
+    }
+
+    .phone_number {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 420px) {
+    .footer_logo {
+        width: 100px;
+        height: 50px;
+    }
+}
